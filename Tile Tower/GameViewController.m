@@ -7,60 +7,73 @@
 //
 
 #import "GameViewController.h"
-#import "GameScene.h"
-
-@implementation SKScene (Unarchive)
-
-+ (instancetype)unarchiveFromFile:(NSString *)file {
-    /* Retrieve scene file path from the application bundle */
-    NSString *nodePath = [[NSBundle mainBundle] pathForResource:file ofType:@"sks"];
-    /* Unarchive the file to an SKScene object */
-    NSData *data = [NSData dataWithContentsOfFile:nodePath
-                                          options:NSDataReadingMappedIfSafe
-                                            error:nil];
-    NSKeyedUnarchiver *arch = [[NSKeyedUnarchiver alloc] initForReadingWithData:data];
-    [arch setClass:self forClassName:@"SKScene"];
-    SKScene *scene = [arch decodeObjectForKey:NSKeyedArchiveRootObjectKey];
-    [arch finishDecoding];
-    
-    return scene;
-}
-
-@end
 
 @implementation GameViewController
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    [self.view setBackgroundColor: [UIColor whiteColor]];
+    
+    backButton = [[UIBarButtonItem alloc] initWithTitle:@"Back to Lobby" style:UIBarButtonItemStylePlain target:self action:@selector(pauseGame)];
 
-    // Configure the view.
-    SKView * skView = (SKView *)self.view;
-    skView.showsFPS = YES;
-    skView.showsNodeCount = YES;
-    /* Sprite Kit applies additional optimizations to improve rendering performance */
-    skView.ignoresSiblingOrder = YES;
+    self.navigationItem.leftBarButtonItem = backButton;
     
-    // Create and configure the scene.
-    GameScene *scene = [GameScene unarchiveFromFile:@"GameScene"];
-    scene.scaleMode = SKSceneScaleModeAspectFill;
     
-    // Present the scene.
-    [skView presentScene:scene];
+    //game = [[GameBoard alloc] initWithPlayers:2 withFrame: CGRectMake(10,50,300,400)];
+    [self.view addSubview: game];
+    
+    p1Status = p2Status = p3Status = p4Status = 0;
+    
+}
+
+- (void) pauseGame
+{
+    [game setAIActive: NO];
+    [self popThisView];
+}
+
+- (void) unpauseGame
+{
+    [game setAIActive: YES];
+}
+
+- (void) startNewGameWithPlayers: (NSArray*) players andLimit: (int) limit withVC: (UIViewController*) vc;
+{
+    lowerViewController = vc;
+    if(game)
+        [game removeFromSuperview];
+    game = nil;
+    
+    int playerCt = [players count];
+    
+    NSMutableArray *playerStatuses = [[NSMutableArray alloc] initWithObjects:[NSNumber numberWithInt:p1Status],[NSNumber numberWithInt:p2Status],nil];
+    if(playerCt >= 3)
+        [playerStatuses addObject:[NSNumber numberWithInt:p3Status]];
+    if(playerCt >= 4)
+        [playerStatuses addObject:[NSNumber numberWithInt:p4Status]];
+    
+    game = [[GameBoard alloc] initWithPlayers: playerStatuses withNames: players withFrame:CGRectMake(10,50,300,400) andScoreLimit:limit];
+    [self.view addSubview:game];
+}
+
+- (void) configurePlayers1:(int) p1 player2:(int)p2 player3:(int)p3 player4:(int)p4
+{
+    p1Status = p1;
+    p2Status = p2;
+    p3Status = p3;
+    p4Status = p4;
+}
+
+- (void) popThisView
+{
+    [[self navigationController] popToViewController:lowerViewController animated:YES];
 }
 
 - (BOOL)shouldAutorotate
 {
-    return YES;
-}
-
-- (NSUInteger)supportedInterfaceOrientations
-{
-    if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone) {
-        return UIInterfaceOrientationMaskAllButUpsideDown;
-    } else {
-        return UIInterfaceOrientationMaskAll;
-    }
+    return NO;
 }
 
 - (void)didReceiveMemoryWarning

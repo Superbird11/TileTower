@@ -7,15 +7,56 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4437CEFD1B04EF0C00C9B6CA /* WirelessGameBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = 4437CEFC1B04EF0C00C9B6CA /* WirelessGameBoard.m */; };
+		444A4ABD1A66C7FF00B6F6F1 /* GameLobbyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 444A4ABC1A66C7FF00B6F6F1 /* GameLobbyViewController.m */; };
+		444A4ABF1A66CB2F00B6F6F1 /* ButtonTemplate.png in Resources */ = {isa = PBXBuildFile; fileRef = 444A4ABE1A66CB2F00B6F6F1 /* ButtonTemplate.png */; };
+		445570CD1A66E4D90025CF25 /* ScoreButton1.png in Resources */ = {isa = PBXBuildFile; fileRef = 445570C91A66E4D90025CF25 /* ScoreButton1.png */; };
+		445570CE1A66E4D90025CF25 /* ScoreButton2.png in Resources */ = {isa = PBXBuildFile; fileRef = 445570CA1A66E4D90025CF25 /* ScoreButton2.png */; };
+		445570CF1A66E4D90025CF25 /* ScoreButton3.png in Resources */ = {isa = PBXBuildFile; fileRef = 445570CB1A66E4D90025CF25 /* ScoreButton3.png */; };
+		445570D01A66E4D90025CF25 /* ScoreButton4.png in Resources */ = {isa = PBXBuildFile; fileRef = 445570CC1A66E4D90025CF25 /* ScoreButton4.png */; };
+		445570FE1A66F36A0025CF25 /* highlight0.png in Resources */ = {isa = PBXBuildFile; fileRef = 445570F41A66F36A0025CF25 /* highlight0.png */; };
+		445570FF1A66F36A0025CF25 /* highlight1.png in Resources */ = {isa = PBXBuildFile; fileRef = 445570F51A66F36A0025CF25 /* highlight1.png */; };
+		445571001A66F36A0025CF25 /* highlight2.png in Resources */ = {isa = PBXBuildFile; fileRef = 445570F61A66F36A0025CF25 /* highlight2.png */; };
+		445571011A66F36A0025CF25 /* highlight3.png in Resources */ = {isa = PBXBuildFile; fileRef = 445570F71A66F36A0025CF25 /* highlight3.png */; };
+		445571021A66F36A0025CF25 /* highlight4.png in Resources */ = {isa = PBXBuildFile; fileRef = 445570F81A66F36A0025CF25 /* highlight4.png */; };
+		445571031A66F36A0025CF25 /* highlight5.png in Resources */ = {isa = PBXBuildFile; fileRef = 445570F91A66F36A0025CF25 /* highlight5.png */; };
+		445571041A66F36A0025CF25 /* highlight6.png in Resources */ = {isa = PBXBuildFile; fileRef = 445570FA1A66F36A0025CF25 /* highlight6.png */; };
+		445571051A66F36A0025CF25 /* highlight7.png in Resources */ = {isa = PBXBuildFile; fileRef = 445570FB1A66F36A0025CF25 /* highlight7.png */; };
+		445571061A66F36A0025CF25 /* highlight8.png in Resources */ = {isa = PBXBuildFile; fileRef = 445570FC1A66F36A0025CF25 /* highlight8.png */; };
+		445571071A66F36A0025CF25 /* highlight9.png in Resources */ = {isa = PBXBuildFile; fileRef = 445570FD1A66F36A0025CF25 /* highlight9.png */; };
 		445C5E471A61FF4D00DB3E6D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 445C5E461A61FF4D00DB3E6D /* main.m */; };
 		445C5E4A1A61FF4D00DB3E6D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 445C5E491A61FF4D00DB3E6D /* AppDelegate.m */; };
-		445C5E4D1A61FF4D00DB3E6D /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 445C5E4C1A61FF4D00DB3E6D /* GameScene.m */; };
-		445C5E4F1A61FF4D00DB3E6D /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 445C5E4E1A61FF4D00DB3E6D /* GameScene.sks */; };
 		445C5E521A61FF4D00DB3E6D /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 445C5E511A61FF4D00DB3E6D /* GameViewController.m */; };
 		445C5E551A61FF4D00DB3E6D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 445C5E531A61FF4D00DB3E6D /* Main.storyboard */; };
 		445C5E571A61FF4D00DB3E6D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 445C5E561A61FF4D00DB3E6D /* Images.xcassets */; };
 		445C5E5A1A61FF4D00DB3E6D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 445C5E581A61FF4D00DB3E6D /* LaunchScreen.xib */; };
 		445C5E661A61FF4D00DB3E6D /* Tile_TowerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 445C5E651A61FF4D00DB3E6D /* Tile_TowerTests.m */; };
+		445C5E731A62025A00DB3E6D /* MCManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 445C5E721A62025A00DB3E6D /* MCManager.m */; };
+		445C5E751A62028400DB3E6D /* MultipeerConnectivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 445C5E741A62028400DB3E6D /* MultipeerConnectivity.framework */; };
+		445C5E781A62064E00DB3E6D /* WirelessViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 445C5E771A62064E00DB3E6D /* WirelessViewController.m */; };
+		445C5E7B1A6226F000DB3E6D /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 445C5E7A1A6226F000DB3E6D /* RootViewController.m */; };
+		445C5E7E1A64B94500DB3E6D /* Tile.m in Sources */ = {isa = PBXBuildFile; fileRef = 445C5E7D1A64B94500DB3E6D /* Tile.m */; };
+		445C5E931A64BDCE00DB3E6D /* GameBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = 445C5E921A64BDCE00DB3E6D /* GameBoard.m */; };
+		445C5EED1A65874500DB3E6D /* highlight.gif in Resources */ = {isa = PBXBuildFile; fileRef = 445C5EE61A65874500DB3E6D /* highlight.gif */; };
+		445C5EEE1A65874500DB3E6D /* score0.png in Resources */ = {isa = PBXBuildFile; fileRef = 445C5EE71A65874500DB3E6D /* score0.png */; };
+		445C5EEF1A65874500DB3E6D /* score1.png in Resources */ = {isa = PBXBuildFile; fileRef = 445C5EE81A65874500DB3E6D /* score1.png */; };
+		445C5EF01A65874500DB3E6D /* score2.png in Resources */ = {isa = PBXBuildFile; fileRef = 445C5EE91A65874500DB3E6D /* score2.png */; };
+		445C5EF11A65874500DB3E6D /* score3.png in Resources */ = {isa = PBXBuildFile; fileRef = 445C5EEA1A65874500DB3E6D /* score3.png */; };
+		445C5EF21A65874500DB3E6D /* score4.png in Resources */ = {isa = PBXBuildFile; fileRef = 445C5EEB1A65874500DB3E6D /* score4.png */; };
+		445C5EF31A65874500DB3E6D /* score5.png in Resources */ = {isa = PBXBuildFile; fileRef = 445C5EEC1A65874500DB3E6D /* score5.png */; };
+		445C5EF71A65E1FF00DB3E6D /* endTurnButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 445C5EF61A65E1FF00DB3E6D /* endTurnButton.png */; };
+		44DBA0DE1A687BC1007786D3 /* TileTowerAI.m in Sources */ = {isa = PBXBuildFile; fileRef = 44DBA0DD1A687BC1007786D3 /* TileTowerAI.m */; };
+		44DBA0E41A687F48007786D3 /* TileTowerAIType1.m in Sources */ = {isa = PBXBuildFile; fileRef = 44DBA0E31A687F48007786D3 /* TileTowerAIType1.m */; };
+		44DBA0E91A68996A007786D3 /* demolish0.png in Resources */ = {isa = PBXBuildFile; fileRef = 44DBA0E51A68996A007786D3 /* demolish0.png */; };
+		44DBA0EA1A68996A007786D3 /* demolish1.png in Resources */ = {isa = PBXBuildFile; fileRef = 44DBA0E61A68996A007786D3 /* demolish1.png */; };
+		44DBA0EB1A68996A007786D3 /* demolish2.png in Resources */ = {isa = PBXBuildFile; fileRef = 44DBA0E71A68996A007786D3 /* demolish2.png */; };
+		44DBA0EC1A68996A007786D3 /* demolish3.png in Resources */ = {isa = PBXBuildFile; fileRef = 44DBA0E81A68996A007786D3 /* demolish3.png */; };
+		44DBA0F11A694B67007786D3 /* TileTowerAIType2.m in Sources */ = {isa = PBXBuildFile; fileRef = 44DBA0F01A694B67007786D3 /* TileTowerAIType2.m */; };
+		44DBA0F61A697663007786D3 /* Message.png in Resources */ = {isa = PBXBuildFile; fileRef = 44DBA0F41A697663007786D3 /* Message.png */; };
+		44DBA0FA1A698DC1007786D3 /* TileTowerAIType3.m in Sources */ = {isa = PBXBuildFile; fileRef = 44DBA0F91A698DC1007786D3 /* TileTowerAIType3.m */; };
+		44DBA0FF1A6DBEBC007786D3 /* startGameButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 44DBA0FE1A6DBEBC007786D3 /* startGameButton.png */; };
+		44DBA1021A6DD769007786D3 /* WirelessGameLobbyVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 44DBA1011A6DD769007786D3 /* WirelessGameLobbyVC.m */; };
+		44DBA1051A6DD7E2007786D3 /* WirelessGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44DBA1041A6DD7E2007786D3 /* WirelessGameViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,14 +70,30 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4437CEFB1B04EF0C00C9B6CA /* WirelessGameBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WirelessGameBoard.h; sourceTree = "<group>"; };
+		4437CEFC1B04EF0C00C9B6CA /* WirelessGameBoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WirelessGameBoard.m; sourceTree = "<group>"; };
+		444A4ABB1A66C7FF00B6F6F1 /* GameLobbyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameLobbyViewController.h; sourceTree = "<group>"; };
+		444A4ABC1A66C7FF00B6F6F1 /* GameLobbyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameLobbyViewController.m; sourceTree = "<group>"; };
+		444A4ABE1A66CB2F00B6F6F1 /* ButtonTemplate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ButtonTemplate.png; sourceTree = "<group>"; };
+		445570C91A66E4D90025CF25 /* ScoreButton1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ScoreButton1.png; sourceTree = "<group>"; };
+		445570CA1A66E4D90025CF25 /* ScoreButton2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ScoreButton2.png; sourceTree = "<group>"; };
+		445570CB1A66E4D90025CF25 /* ScoreButton3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ScoreButton3.png; sourceTree = "<group>"; };
+		445570CC1A66E4D90025CF25 /* ScoreButton4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ScoreButton4.png; sourceTree = "<group>"; };
+		445570F41A66F36A0025CF25 /* highlight0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = highlight0.png; path = highlight/highlight0.png; sourceTree = "<group>"; };
+		445570F51A66F36A0025CF25 /* highlight1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = highlight1.png; path = highlight/highlight1.png; sourceTree = "<group>"; };
+		445570F61A66F36A0025CF25 /* highlight2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = highlight2.png; path = highlight/highlight2.png; sourceTree = "<group>"; };
+		445570F71A66F36A0025CF25 /* highlight3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = highlight3.png; path = highlight/highlight3.png; sourceTree = "<group>"; };
+		445570F81A66F36A0025CF25 /* highlight4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = highlight4.png; path = highlight/highlight4.png; sourceTree = "<group>"; };
+		445570F91A66F36A0025CF25 /* highlight5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = highlight5.png; path = highlight/highlight5.png; sourceTree = "<group>"; };
+		445570FA1A66F36A0025CF25 /* highlight6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = highlight6.png; path = highlight/highlight6.png; sourceTree = "<group>"; };
+		445570FB1A66F36A0025CF25 /* highlight7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = highlight7.png; path = highlight/highlight7.png; sourceTree = "<group>"; };
+		445570FC1A66F36A0025CF25 /* highlight8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = highlight8.png; path = highlight/highlight8.png; sourceTree = "<group>"; };
+		445570FD1A66F36A0025CF25 /* highlight9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = highlight9.png; path = highlight/highlight9.png; sourceTree = "<group>"; };
 		445C5E411A61FF4C00DB3E6D /* Tile Tower.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tile Tower.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		445C5E451A61FF4D00DB3E6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		445C5E461A61FF4D00DB3E6D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		445C5E481A61FF4D00DB3E6D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		445C5E491A61FF4D00DB3E6D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		445C5E4B1A61FF4D00DB3E6D /* GameScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
-		445C5E4C1A61FF4D00DB3E6D /* GameScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
-		445C5E4E1A61FF4D00DB3E6D /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		445C5E501A61FF4D00DB3E6D /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
 		445C5E511A61FF4D00DB3E6D /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
 		445C5E541A61FF4D00DB3E6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -45,6 +102,43 @@
 		445C5E5F1A61FF4D00DB3E6D /* Tile TowerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tile TowerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		445C5E641A61FF4D00DB3E6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		445C5E651A61FF4D00DB3E6D /* Tile_TowerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tile_TowerTests.m; sourceTree = "<group>"; };
+		445C5E711A62025A00DB3E6D /* MCManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCManager.h; sourceTree = "<group>"; };
+		445C5E721A62025A00DB3E6D /* MCManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCManager.m; sourceTree = "<group>"; };
+		445C5E741A62028400DB3E6D /* MultipeerConnectivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MultipeerConnectivity.framework; path = System/Library/Frameworks/MultipeerConnectivity.framework; sourceTree = SDKROOT; };
+		445C5E761A62064E00DB3E6D /* WirelessViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WirelessViewController.h; sourceTree = "<group>"; };
+		445C5E771A62064E00DB3E6D /* WirelessViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WirelessViewController.m; sourceTree = "<group>"; };
+		445C5E791A6226F000DB3E6D /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		445C5E7A1A6226F000DB3E6D /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		445C5E7C1A64B94500DB3E6D /* Tile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tile.h; sourceTree = "<group>"; };
+		445C5E7D1A64B94500DB3E6D /* Tile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tile.m; sourceTree = "<group>"; };
+		445C5E911A64BDCE00DB3E6D /* GameBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameBoard.h; sourceTree = "<group>"; };
+		445C5E921A64BDCE00DB3E6D /* GameBoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameBoard.m; sourceTree = "<group>"; };
+		445C5EE61A65874500DB3E6D /* highlight.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = highlight.gif; path = "Base.lproj/Art Assets/highlight.gif"; sourceTree = "<group>"; };
+		445C5EE71A65874500DB3E6D /* score0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = score0.png; path = "Base.lproj/Art Assets/score0.png"; sourceTree = "<group>"; };
+		445C5EE81A65874500DB3E6D /* score1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = score1.png; path = "Base.lproj/Art Assets/score1.png"; sourceTree = "<group>"; };
+		445C5EE91A65874500DB3E6D /* score2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = score2.png; path = "Base.lproj/Art Assets/score2.png"; sourceTree = "<group>"; };
+		445C5EEA1A65874500DB3E6D /* score3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = score3.png; path = "Base.lproj/Art Assets/score3.png"; sourceTree = "<group>"; };
+		445C5EEB1A65874500DB3E6D /* score4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = score4.png; path = "Base.lproj/Art Assets/score4.png"; sourceTree = "<group>"; };
+		445C5EEC1A65874500DB3E6D /* score5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = score5.png; path = "Base.lproj/Art Assets/score5.png"; sourceTree = "<group>"; };
+		445C5EF61A65E1FF00DB3E6D /* endTurnButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = endTurnButton.png; sourceTree = "<group>"; };
+		44DBA0DC1A687BC1007786D3 /* TileTowerAI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TileTowerAI.h; sourceTree = "<group>"; };
+		44DBA0DD1A687BC1007786D3 /* TileTowerAI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TileTowerAI.m; sourceTree = "<group>"; };
+		44DBA0E21A687F48007786D3 /* TileTowerAIType1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TileTowerAIType1.h; path = ../TileTowerAIType1.h; sourceTree = "<group>"; };
+		44DBA0E31A687F48007786D3 /* TileTowerAIType1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TileTowerAIType1.m; path = ../TileTowerAIType1.m; sourceTree = "<group>"; };
+		44DBA0E51A68996A007786D3 /* demolish0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = demolish0.png; path = highlight/demolish0.png; sourceTree = "<group>"; };
+		44DBA0E61A68996A007786D3 /* demolish1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = demolish1.png; path = highlight/demolish1.png; sourceTree = "<group>"; };
+		44DBA0E71A68996A007786D3 /* demolish2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = demolish2.png; path = highlight/demolish2.png; sourceTree = "<group>"; };
+		44DBA0E81A68996A007786D3 /* demolish3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = demolish3.png; path = highlight/demolish3.png; sourceTree = "<group>"; };
+		44DBA0EF1A694B67007786D3 /* TileTowerAIType2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TileTowerAIType2.h; sourceTree = "<group>"; };
+		44DBA0F01A694B67007786D3 /* TileTowerAIType2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TileTowerAIType2.m; sourceTree = "<group>"; };
+		44DBA0F41A697663007786D3 /* Message.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Message.png; sourceTree = "<group>"; };
+		44DBA0F81A698DC1007786D3 /* TileTowerAIType3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TileTowerAIType3.h; sourceTree = "<group>"; };
+		44DBA0F91A698DC1007786D3 /* TileTowerAIType3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TileTowerAIType3.m; sourceTree = "<group>"; };
+		44DBA0FE1A6DBEBC007786D3 /* startGameButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = startGameButton.png; sourceTree = "<group>"; };
+		44DBA1001A6DD769007786D3 /* WirelessGameLobbyVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WirelessGameLobbyVC.h; sourceTree = "<group>"; };
+		44DBA1011A6DD769007786D3 /* WirelessGameLobbyVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WirelessGameLobbyVC.m; sourceTree = "<group>"; };
+		44DBA1031A6DD7E2007786D3 /* WirelessGameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WirelessGameViewController.h; sourceTree = "<group>"; };
+		44DBA1041A6DD7E2007786D3 /* WirelessGameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WirelessGameViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +146,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				445C5E751A62028400DB3E6D /* MultipeerConnectivity.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +163,7 @@
 		445C5E381A61FF4C00DB3E6D = {
 			isa = PBXGroup;
 			children = (
+				445C5E741A62028400DB3E6D /* MultipeerConnectivity.framework */,
 				445C5E431A61FF4C00DB3E6D /* Tile Tower */,
 				445C5E621A61FF4D00DB3E6D /* Tile TowerTests */,
 				445C5E421A61FF4C00DB3E6D /* Products */,
@@ -88,12 +184,64 @@
 			children = (
 				445C5E481A61FF4D00DB3E6D /* AppDelegate.h */,
 				445C5E491A61FF4D00DB3E6D /* AppDelegate.m */,
-				445C5E4B1A61FF4D00DB3E6D /* GameScene.h */,
-				445C5E4C1A61FF4D00DB3E6D /* GameScene.m */,
-				445C5E4E1A61FF4D00DB3E6D /* GameScene.sks */,
+				444A4ABB1A66C7FF00B6F6F1 /* GameLobbyViewController.h */,
+				444A4ABC1A66C7FF00B6F6F1 /* GameLobbyViewController.m */,
 				445C5E501A61FF4D00DB3E6D /* GameViewController.h */,
 				445C5E511A61FF4D00DB3E6D /* GameViewController.m */,
+				445C5E911A64BDCE00DB3E6D /* GameBoard.h */,
+				445C5E921A64BDCE00DB3E6D /* GameBoard.m */,
+				445C5E7C1A64B94500DB3E6D /* Tile.h */,
+				445C5E7D1A64B94500DB3E6D /* Tile.m */,
+				44DBA0DC1A687BC1007786D3 /* TileTowerAI.h */,
+				44DBA0DD1A687BC1007786D3 /* TileTowerAI.m */,
+				44DBA0E21A687F48007786D3 /* TileTowerAIType1.h */,
+				44DBA0E31A687F48007786D3 /* TileTowerAIType1.m */,
+				44DBA0EF1A694B67007786D3 /* TileTowerAIType2.h */,
+				44DBA0F01A694B67007786D3 /* TileTowerAIType2.m */,
+				44DBA0F81A698DC1007786D3 /* TileTowerAIType3.h */,
+				44DBA0F91A698DC1007786D3 /* TileTowerAIType3.m */,
+				445C5E761A62064E00DB3E6D /* WirelessViewController.h */,
+				445C5E771A62064E00DB3E6D /* WirelessViewController.m */,
+				44DBA1001A6DD769007786D3 /* WirelessGameLobbyVC.h */,
+				44DBA1011A6DD769007786D3 /* WirelessGameLobbyVC.m */,
+				44DBA1031A6DD7E2007786D3 /* WirelessGameViewController.h */,
+				44DBA1041A6DD7E2007786D3 /* WirelessGameViewController.m */,
+				4437CEFB1B04EF0C00C9B6CA /* WirelessGameBoard.h */,
+				4437CEFC1B04EF0C00C9B6CA /* WirelessGameBoard.m */,
+				445C5E791A6226F000DB3E6D /* RootViewController.h */,
+				445C5E7A1A6226F000DB3E6D /* RootViewController.m */,
+				445C5E711A62025A00DB3E6D /* MCManager.h */,
+				445C5E721A62025A00DB3E6D /* MCManager.m */,
 				445C5E531A61FF4D00DB3E6D /* Main.storyboard */,
+				44DBA0FE1A6DBEBC007786D3 /* startGameButton.png */,
+				44DBA0F41A697663007786D3 /* Message.png */,
+				44DBA0E51A68996A007786D3 /* demolish0.png */,
+				44DBA0E61A68996A007786D3 /* demolish1.png */,
+				44DBA0E71A68996A007786D3 /* demolish2.png */,
+				44DBA0E81A68996A007786D3 /* demolish3.png */,
+				445570F41A66F36A0025CF25 /* highlight0.png */,
+				445570F51A66F36A0025CF25 /* highlight1.png */,
+				445570F61A66F36A0025CF25 /* highlight2.png */,
+				445570F71A66F36A0025CF25 /* highlight3.png */,
+				445570F81A66F36A0025CF25 /* highlight4.png */,
+				445570F91A66F36A0025CF25 /* highlight5.png */,
+				445570FA1A66F36A0025CF25 /* highlight6.png */,
+				445570FB1A66F36A0025CF25 /* highlight7.png */,
+				445570FC1A66F36A0025CF25 /* highlight8.png */,
+				445570FD1A66F36A0025CF25 /* highlight9.png */,
+				445C5EF61A65E1FF00DB3E6D /* endTurnButton.png */,
+				445C5EE61A65874500DB3E6D /* highlight.gif */,
+				445C5EE71A65874500DB3E6D /* score0.png */,
+				445C5EE81A65874500DB3E6D /* score1.png */,
+				445C5EE91A65874500DB3E6D /* score2.png */,
+				445C5EEA1A65874500DB3E6D /* score3.png */,
+				445C5EEB1A65874500DB3E6D /* score4.png */,
+				445C5EEC1A65874500DB3E6D /* score5.png */,
+				444A4ABE1A66CB2F00B6F6F1 /* ButtonTemplate.png */,
+				445570C91A66E4D90025CF25 /* ScoreButton1.png */,
+				445570CA1A66E4D90025CF25 /* ScoreButton2.png */,
+				445570CB1A66E4D90025CF25 /* ScoreButton3.png */,
+				445570CC1A66E4D90025CF25 /* ScoreButton4.png */,
 				445C5E561A61FF4D00DB3E6D /* Images.xcassets */,
 				445C5E581A61FF4D00DB3E6D /* LaunchScreen.xib */,
 				445C5E441A61FF4C00DB3E6D /* Supporting Files */,
@@ -176,9 +324,11 @@
 				TargetAttributes = {
 					445C5E401A61FF4C00DB3E6D = {
 						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = KGG7Z73L49;
 					};
 					445C5E5E1A61FF4D00DB3E6D = {
 						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = KGG7Z73L49;
 						TestTargetID = 445C5E401A61FF4C00DB3E6D;
 					};
 				};
@@ -207,10 +357,38 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				445C5EF01A65874500DB3E6D /* score2.png in Resources */,
 				445C5E5A1A61FF4D00DB3E6D /* LaunchScreen.xib in Resources */,
+				44DBA0F61A697663007786D3 /* Message.png in Resources */,
+				445C5EEE1A65874500DB3E6D /* score0.png in Resources */,
+				445571031A66F36A0025CF25 /* highlight5.png in Resources */,
+				445570FE1A66F36A0025CF25 /* highlight0.png in Resources */,
+				445571021A66F36A0025CF25 /* highlight4.png in Resources */,
+				445C5EEF1A65874500DB3E6D /* score1.png in Resources */,
+				445571001A66F36A0025CF25 /* highlight2.png in Resources */,
+				445570FF1A66F36A0025CF25 /* highlight1.png in Resources */,
+				44DBA0FF1A6DBEBC007786D3 /* startGameButton.png in Resources */,
+				44DBA0EA1A68996A007786D3 /* demolish1.png in Resources */,
+				445C5EF11A65874500DB3E6D /* score3.png in Resources */,
+				445571061A66F36A0025CF25 /* highlight8.png in Resources */,
+				445570D01A66E4D90025CF25 /* ScoreButton4.png in Resources */,
+				44DBA0E91A68996A007786D3 /* demolish0.png in Resources */,
+				445C5EED1A65874500DB3E6D /* highlight.gif in Resources */,
+				445C5EF31A65874500DB3E6D /* score5.png in Resources */,
+				445570CD1A66E4D90025CF25 /* ScoreButton1.png in Resources */,
+				445C5EF71A65E1FF00DB3E6D /* endTurnButton.png in Resources */,
+				444A4ABF1A66CB2F00B6F6F1 /* ButtonTemplate.png in Resources */,
 				445C5E571A61FF4D00DB3E6D /* Images.xcassets in Resources */,
-				445C5E4F1A61FF4D00DB3E6D /* GameScene.sks in Resources */,
+				445571041A66F36A0025CF25 /* highlight6.png in Resources */,
+				445571071A66F36A0025CF25 /* highlight9.png in Resources */,
+				44DBA0EB1A68996A007786D3 /* demolish2.png in Resources */,
+				445570CE1A66E4D90025CF25 /* ScoreButton2.png in Resources */,
+				445571051A66F36A0025CF25 /* highlight7.png in Resources */,
+				44DBA0EC1A68996A007786D3 /* demolish3.png in Resources */,
 				445C5E551A61FF4D00DB3E6D /* Main.storyboard in Resources */,
+				445570CF1A66E4D90025CF25 /* ScoreButton3.png in Resources */,
+				445C5EF21A65874500DB3E6D /* score4.png in Resources */,
+				445571011A66F36A0025CF25 /* highlight3.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -228,10 +406,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				444A4ABD1A66C7FF00B6F6F1 /* GameLobbyViewController.m in Sources */,
+				445C5E931A64BDCE00DB3E6D /* GameBoard.m in Sources */,
+				445C5E731A62025A00DB3E6D /* MCManager.m in Sources */,
+				44DBA0FA1A698DC1007786D3 /* TileTowerAIType3.m in Sources */,
+				44DBA0DE1A687BC1007786D3 /* TileTowerAI.m in Sources */,
+				44DBA0E41A687F48007786D3 /* TileTowerAIType1.m in Sources */,
+				445C5E7B1A6226F000DB3E6D /* RootViewController.m in Sources */,
 				445C5E521A61FF4D00DB3E6D /* GameViewController.m in Sources */,
+				44DBA1051A6DD7E2007786D3 /* WirelessGameViewController.m in Sources */,
 				445C5E4A1A61FF4D00DB3E6D /* AppDelegate.m in Sources */,
-				445C5E4D1A61FF4D00DB3E6D /* GameScene.m in Sources */,
+				445C5E781A62064E00DB3E6D /* WirelessViewController.m in Sources */,
+				445C5E7E1A64B94500DB3E6D /* Tile.m in Sources */,
+				44DBA0F11A694B67007786D3 /* TileTowerAIType2.m in Sources */,
 				445C5E471A61FF4D00DB3E6D /* main.m in Sources */,
+				4437CEFD1B04EF0C00C9B6CA /* WirelessGameBoard.m in Sources */,
+				44DBA1021A6DD769007786D3 /* WirelessGameLobbyVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -353,9 +543,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Tile Tower/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -363,9 +556,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Tile Tower/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -373,6 +569,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -384,6 +582,7 @@
 				INFOPLIST_FILE = "Tile TowerTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tile Tower.app/Tile Tower";
 			};
 			name = Debug;
@@ -392,6 +591,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -399,6 +600,7 @@
 				INFOPLIST_FILE = "Tile TowerTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tile Tower.app/Tile Tower";
 			};
 			name = Release;
@@ -422,6 +624,7 @@
 				445C5E6B1A61FF4D00DB3E6D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		445C5E6C1A61FF4D00DB3E6D /* Build configuration list for PBXNativeTarget "Tile TowerTests" */ = {
 			isa = XCConfigurationList;
@@ -430,6 +633,7 @@
 				445C5E6E1A61FF4D00DB3E6D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
